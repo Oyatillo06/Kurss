@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    {% for i in quiz %}
+    <h1><a href="/savol/{{i.id}}/">{{i.nom}}</a></h1>
+    {% endfor %}
+
+</body>
+</html>
